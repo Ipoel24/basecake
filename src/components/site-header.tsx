@@ -3,6 +3,17 @@ import { Button } from "@/components/ui/button";
 import { CopyCa } from "@/components/copy-ca";
 import { TOKEN } from "@/lib/token";
 
+function XLogo() {
+  return (
+    <svg viewBox="0 0 24 24" className="size-4" aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M18.244 2H21.5l-7.5 8.57L22.5 22h-6.59l-5.16-6.74L5.2 22H1.94l8.02-9.16L1.5 2h6.76l4.66 6.18L18.244 2zm-1.16 18.06h1.81L7.01 3.86H5.07l12.01 16.2z"
+      />
+    </svg>
+  );
+}
+
 const NAV = [
   { href: "#story", label: "Story" },
   { href: "#cake", label: "The cake" },
@@ -40,6 +51,15 @@ export function SiteHeader() {
         </nav>
 
         <div className="ml-auto flex items-center gap-2">
+          <a
+            href={TOKEN.x}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="BaseCake on X"
+            className="inline-flex size-10 items-center justify-center rounded-sm text-ink-soft transition-colors duration-150 hover:bg-ink/5 hover:text-ink"
+          >
+            <XLogo />
+          </a>
           <CopyCa
             size="sm"
             className="hidden max-w-44 sm:inline-flex"

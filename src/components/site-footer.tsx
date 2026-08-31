@@ -17,6 +17,14 @@ export function SiteFooter() {
               BaseCake
             </p>
             <p className="font-mono text-[11px] text-quiet">{shortCa()}</p>
+            <a
+              href={TOKEN.x}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-1 inline-block text-xs text-ink-soft hover:text-ink"
+            >
+              @BasecakeOnBase
+            </a>
           </div>
         </div>
         <p className="max-w-md text-xs leading-relaxed text-quiet">

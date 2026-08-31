@@ -14,6 +14,7 @@ export const TOKEN = {
   uniswap:
     "https://app.uniswap.org/swap?chain=base&outputCurrency=0xb8d0851725247a00d7d7ccbac9f23a88c433fee1",
   originTweet: "https://x.com/CoinMarketCap/status/2094409963355386120",
+  x: "https://x.com/BasecakeOnBase",
 } as const;
 
 export function shortCa(ca: string = TOKEN.ca) {

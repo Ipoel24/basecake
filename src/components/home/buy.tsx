@@ -74,6 +74,15 @@ export function Buy() {
 
         <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-sm">
           <a
+            href={TOKEN.x}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-ink-soft hover:text-ink"
+          >
+            X
+            <ArrowUpRight className="size-3.5" />
+          </a>
+          <a
             href={TOKEN.uniswap}
             target="_blank"
             rel="noopener noreferrer"

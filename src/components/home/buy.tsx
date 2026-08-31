@@ -79,7 +79,7 @@ export function Buy() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 text-ink-soft hover:text-ink"
           >
-            X
+            X · @BasecakeOnBase
             <ArrowUpRight className="size-3.5" />
           </a>
           <a

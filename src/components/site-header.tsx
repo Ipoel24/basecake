@@ -55,10 +55,10 @@ export function SiteHeader() {
             href={TOKEN.x}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="BaseCake on X"
-            className="inline-flex size-10 items-center justify-center rounded-sm text-ink-soft transition-colors duration-150 hover:bg-ink/5 hover:text-ink"
+            className="inline-flex h-10 items-center gap-2 rounded-sm px-2.5 text-sm font-medium text-ink-soft transition-colors duration-150 hover:bg-ink/5 hover:text-ink"
           >
             <XLogo />
+            <span className="hidden sm:inline">@BasecakeOnBase</span>
           </a>
           <CopyCa
             size="sm"

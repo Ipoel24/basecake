@@ -4,7 +4,7 @@ import { CopyCa } from "@/components/copy-ca";
 const INGREDIENTS = [
   { amount: "1", item: "Blue blob, posted by CoinMarketCap" },
   { amount: "1", item: "Base chain" },
-  { amount: "1B", item: "BASEC crumbs, no extra slices" },
+  { amount: "1B", item: "BASECAKE crumbs, no extra slices" },
   { amount: "0", item: "Fake utility" },
   { amount: "0", item: "Roadmap slides" },
   { amount: "∞", item: "Frosting" },

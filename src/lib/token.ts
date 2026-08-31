@@ -1,7 +1,7 @@
 export const TOKEN = {
   name: "BaseCake",
   ticker: "BASECAKE",
-  symbol: "BASEC",
+  symbol: "BASECAKE",
   ca: "0xb8d0851725247a00d7d7ccbac9f23a88c433fee1",
   chain: "Base",
   chainId: 8453,

@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "BaseCake — Finish the drawing",
+      "hasCanvas": true,
+      "bodyTextLen": 2712,
+      "bodyTextHash": "3dad3f56bd889d84e37149d360ddcbf973953258027fe30276792cee93a7a9b5",
+      "bodyTextPrefix": "BaseCake Story The cake Draw Buy 0xb8d0…fee1 Buy Just baked on B",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "BaseCake — Finish the drawing",
+      "hasCanvas": true,
+      "bodyTextLen": 2692,
+      "bodyTextHash": "19fa38198019f5eb7b49dfe475ddf3bc84626c87f6e7e53f87c63063280ff36b",
+      "bodyTextPrefix": "BaseCake Buy Just baked on Base · Feel.cash Finish the drawing. ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal.",
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/x-banner.jpg is missing. Games need a 50:11 X feed card (1200×264 JPEG) at public/x-banner.jpg — open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

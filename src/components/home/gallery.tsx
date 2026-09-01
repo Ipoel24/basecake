@@ -5,7 +5,7 @@ export function Gallery() {
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-[11px] font-medium uppercase tracking-[0.16em] text-quiet">
-              The bake
+              The finish
             </p>
             <h2 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
               Same blob. A little frosting.

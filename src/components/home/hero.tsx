@@ -10,12 +10,12 @@ export function Hero() {
         <div className="relative z-10">
           <p className="rise-in mb-5 inline-flex items-center gap-2 rounded-full bg-frost px-3 py-1.5 text-xs font-medium tracking-wide text-ink-soft shadow-[0_0_0_1px_rgba(20,22,28,0.08)]">
             <span className="size-1.5 rounded-full bg-brand" />
-            Just baked on Base · Feel.cash
+            Baked on Base · Feel.cash
           </p>
           <h1 className="rise-in font-display text-[clamp(2.6rem,8vw,5.4rem)] leading-[0.95] tracking-[-0.035em] text-ink">
             <span className="italic text-brand">Finish the drawing.</span>
             <br />
-            We baked a cake.
+            We baked it on Base.
           </h1>
           <p className="rise-in mt-6 max-w-md text-base leading-relaxed text-ink-soft sm:text-lg">
             CoinMarketCap posted a blue blob. The timeline saw a cake.{" "}

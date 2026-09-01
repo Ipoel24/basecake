@@ -18,7 +18,7 @@ export function Origin() {
             On 31 August 2026, CoinMarketCap posted a Base-blue square with a
             white outline and the words{" "}
             <span className="italic text-ink">finish the drawing</span>. People
-            drew cats, frogs, helmets. We saw a cake. Then we baked it on-chain.
+            drew cats, frogs, helmets. We saw a cake. Then we launched it on Base.
           </p>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-ink-soft">
             No invented utility. No fake roadmap. $BASECAKE is the cake that

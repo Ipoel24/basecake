@@ -430,7 +430,7 @@ export function Studio() {
     commitStamps(baked);
     setTool("face");
     paint();
-    toast.success("Baked — drag the face to sit on the blob.");
+    toast.success("Finished — drag the face to sit on the blob.");
   }
 
   function download() {
@@ -603,7 +603,7 @@ export function Studio() {
 
             <Button type="button" onClick={bakeIt} disabled={!ready}>
               <Cake />
-              Bake it
+              Finish it
             </Button>
             <Button type="button" variant="ink" onClick={download}>
               <Download />

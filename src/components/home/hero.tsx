@@ -47,11 +47,11 @@ export function Hero() {
             className="absolute left-1/2 top-1/2 size-[78%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-brand/15 blur-3xl"
           />
           <img
-            src="/art/mascot.jpg"
-            alt="BaseCake mascot — a cobalt-blue blob cake with white frosting, a cherry, and a little smile"
-            className="animate-cake-float relative z-10 w-full rounded-2xl ticket"
+            src="/art/blob.png"
+            alt="BaseCake mascot — the cobalt-blue blob, filled in"
+            className="animate-cake-float relative z-10 mx-auto w-[86%] object-contain"
             width={1024}
-            height={1024}
+            height={883}
           />
         </div>
       </div>
